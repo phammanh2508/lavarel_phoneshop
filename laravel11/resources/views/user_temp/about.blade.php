@@ -52,20 +52,7 @@
 							</div>
 							</div>
 
-							<div class="row">
-								<div class="col-sm-3">
-									<img src="assets/user/images/ic.png">
-								</div>
-								<div class="col-sm-3">
-									<img src="assets/user/images/ic1.png" width="300px">
-								</div>
-								<div class="col-sm-3">
-									<img src="assets/user/images/ic2.png" width="300px">
-								</div>
-								<div class="col-sm-3">
-									<img src="assets/user/images/ic3.png" width="300px">
-								</div>
-							</div>							
+											
 							
 							<br><br><br><br>
 						<!-- row -->
