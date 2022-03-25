@@ -34,7 +34,6 @@
                     <th>Mã SP</th>
                     <th>Hình ảnh</th>
                     <th>Tên sản phẩm</th>
-                    <th>Giới tính</th>
                     <th>Giá</th>
                     <th>Số lượng</th>
                     <th>Tình trạng</th>
@@ -47,13 +46,6 @@
                     <td>{{ $wares->product_id }}</td>
                     <td><img src="/assets/uploads/product/{{ $wares->product_image }}" width="70px"></td>
                     <td>{{ $wares->product_name }}</td>
-                    <td>
-                        @if($wares->gender == 1) 
-                            Nam
-                        @else
-                            Nữ                        
-                        @endif
-                    </td>
                     <td>{{ number_format($wares->product_price) }} đ</td>
                     <td>{{ $wares->product_qty }}</td>
                     <td>
